@@ -8,7 +8,7 @@ aiofiles==24.1.0
     # via quart
 aiohappyeyeballs==2.4.0
     # via aiohttp
-aiohttp==3.10.11
+aiohttp==3.11.7
     # via
     #   -r requirements.in
     #   microsoft-kiota-authentication-azure
@@ -329,7 +329,9 @@ portalocker==2.10.1
 priority==2.0.0
     # via hypercorn
 propcache==0.2.0
-    # via yarl
+    # via
+    #   aiohttp
+    #   yarl
 psutil==5.9.8
     # via azure-monitor-opentelemetry-exporter
 pycparser==2.22
